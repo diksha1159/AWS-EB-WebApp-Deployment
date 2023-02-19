@@ -202,3 +202,4 @@ Conclusion
 In this module, you learned how to create the resources needed to deploy your application on Elastic Beanstalk automatically. In the next module, you will learn how to actually deploy your application to the cloud and how to make updates when necessary. This will enable you to easily manage your application and keep it up to date without needing to manually manage the underlying infrastructure.
 
 ----
+
