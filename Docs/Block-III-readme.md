@@ -76,3 +76,13 @@ Now, you can verify that there is a new version of the Elastic Beanstalk app dep
 Comclusions:
 
 You're now able to package up your Node.js web app and deploy it with Elastic Beanstalk, while also deploying all the infrastructure as a CDK application. You're becoming quite the deployment wizard!
+
+
+--------------
+
+now if you are using AWS free tier account you won't be charged a penny and just to be on the safe side you might want to run 
+
+``` cdk destroy ```
+This will destroy all resources you created.
+you may verify this by going to the AWS CloudFormation management console, and checking that the two stacks that were created in the previous module are gone.
+
